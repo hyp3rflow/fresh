@@ -45,8 +45,9 @@ export class Bundler {
       entryPoints,
       format: "esm",
       metafile: true,
-      minify: true,
+      minify: false,
       outdir: ".",
+      keepNames: true,
       // This is requried to ensure the format of the outputFiles path is the same
       // between windows and linux
       absWorkingDir,
