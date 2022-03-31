@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <h1>
-        Hi Riiiders!
+        Hi Tech session!!
       </h1>
       <Counter start={3} />
     </div>
